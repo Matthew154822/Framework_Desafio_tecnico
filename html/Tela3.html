@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/telas.css">
+    <link rel="icon" href="/Assets/logo.png">
+</head>
+  
+  <body onload="LocalS()">
+    <div class="container-principal">
+      <header>
+          <div class="container-header">
+            <img src="/Assets/AliançaRebelde.png" width="100px" alt=""> 
+            <a href="/html/index.html"><img src="/Assets/logo.png" width="150px" alt=""></a>
+            <img src="/Assets/OrdemJedi.png" width="100px" alt=""> 
+          </div>
+          <h1>TODOS</h1>
+      </header>
+
+      <main>
+        <div class="container-main">
+          <table id="tabela">
+              <tr>
+                  <th>UserId</th>
+                  <th>Id</th>
+                  <th>Title</th>
+                  <th>Completed</th>
+              </tr>
+          </table>
+          
+          <div class="container-buttons2">
+            <div class="container-buttons">
+              <button onclick="adiciona()">Adicionar Post</button>
+              <button onclick="remove()">Remover último Post</button>
+            </div>
+            <a href="/html/index.html"><button>Voltar para o menu</button></a>
+          </div>
+
+
+        </div>
+      </main>
+    </div>
+  </body>
+  
+  <footer>
+    <p>Created by <span>Matthew Nascimento</span></p>
+  </footer>
+
+<script src="/Js/tela3.js"></script>
+</html>

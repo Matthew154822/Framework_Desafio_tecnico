@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telas Star Wars</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/Assets/logo.png">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+</head>
+  
+  <body>
+    <div class="container-principal">
+      <header>
+          <div class="container-header">
+            <img src="/Assets/AliançaRebelde.png" width="100px" alt=""> 
+            <a href="/html/index.html"><img src="/Assets/logo.png" width="150px" alt=""></a>
+            <img src="/Assets/OrdemJedi.png" width="100px" alt="">
+           
+            <div class="controls">
+              <p id="pause" onclick="pause()">&#9612; &#9612;</p>
+              <p id="play" onclick="play()">&#9658;</p>
+            </div>
+
+            <audio id="audio" preload="auto" autoplay>
+              <source src="/Assets/IntroStarWars.mp3" type="audio/mpeg">
+            </audio>
+
+           
+
+          </div>
+      </header>
+
+     
+
+      <div class="container-lateral">
+        <aside class="aside1">
+          <div class="lightsaber">
+            <img src="/Assets/sabreluz.png" id="luke">
+            <div class="plasma"></div>
+            <audio id="beep" preload="auto">
+              <source src="/Assets/LightsaberSound.mp3"></source>
+            </audio>
+         </div>
+        </aside>
+
+   
+
+        <main>        
+          <div class="container-principal2">
+            <ul>
+              <li><a href="/html/Tela1.html">Tela 1</a></li>
+              <li><a href="/html/Tela2.html">Tela 2</a></li>
+              <li><a href="/html/Tela3.html">Tela 3</a></li>
+            </ul>
+          </div>
+        </main>
+
+
+        <aside>
+           <div class="lightsaber">
+              <img src="/Assets/sabreluz.png" id="vader">
+              <div class="plasma"></div>
+              <audio id="beep" preload="auto">
+                <source src="/Assets/LightsaberSound.mp3"></source>
+              </audio>
+           </div>
+        </aside>
+      </div>
+
+      <footer>
+          <p>Created by <span>Matthew Nascimento</span></p>
+      </footer>
+    </div>
+  
+  
+  
+  
+  </body>
+
+  <script src="/Js/index.js"></script>
+
+
+
+</html>
