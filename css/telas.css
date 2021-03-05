@@ -54,6 +54,7 @@
     align-items: center;
     justify-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
   }
   
   body{
@@ -74,10 +75,11 @@
   }
   footer{
     display: flex;
-    position: relative;
-    bottom: 0px;
-    margin-top: 350px;
+    position: fixed;
+    bottom:0;
+    left:0;
     height: 34px;
+    bottom: 0px;
     font-size: 15px;
     justify-content: center;
     align-items: center;
